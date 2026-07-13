@@ -1,0 +1,77 @@
+/* General body styling */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
+}
+
+/* Chatbot container styling */
+.chatbot-container {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Header styling */
+.chatbot-header {
+  text-align: center;
+  padding: 20px;
+}
+
+.chatbot-header h1 {
+  margin: 0;
+}
+
+.chatbot-header p {
+  margin-top: 5px;
+}
+
+/* Chat window styling */
+.chat-window {
+  height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+/* Message styling */
+.message {
+  margin-bottom: 10px;
+}
+
+.user-message span,
+.bot-message span,
+.error-message span {
+  display: inline-block;
+  padding: 10px;
+}
+
+.user-message span {
+  background-color: #58cc71;
+}
+
+.bot-message span {
+  background-color: #82aaff;
+}
+
+.error-message span {
+  background-color: #ff4d4d;
+}
+
+/* Input and button container */
+.chat-input-container {
+  display: flex;
+}
+
+.chat-input-container input {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.chat-input-container button {
+  padding: 10px;
+}
